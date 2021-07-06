@@ -56,9 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Cannon.cs" />
+    <Compile Include="Assets\Script\Tank\PlayerMove.cs" />
+    <Compile Include="Assets\Script\Ballet\CreateBallet.cs" />
+    <Compile Include="Assets\Script\Tank\PlayerShot.cs" />
+    <Compile Include="Assets\Script\Ballet\BalletMove.cs" />
+    <Compile Include="Assets\Script\Tank\BreakMotion.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Effect\Shaders\SphereVolumetricExplosion.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity 2021.1.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
