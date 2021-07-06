@@ -56,11 +56,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\Tank\PlayerMove.cs" />
-    <Compile Include="Assets\Script\Ballet\CreateBallet.cs" />
     <Compile Include="Assets\Script\Tank\PlayerShot.cs" />
-    <Compile Include="Assets\Script\Ballet\BalletMove.cs" />
     <Compile Include="Assets\Script\Tank\BreakMotion.cs" />
+    <Compile Include="Assets\Script\Ballet\BalletMove.cs" />
+    <Compile Include="Assets\Script\Ballet\CreateBallet.cs" />
+    <Compile Include="Assets\Script\Tank\PlayerMove.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Effect\Shaders\SphereVolumetricExplosion.shader" />
